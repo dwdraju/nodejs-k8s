@@ -1,0 +1,18 @@
+{
+  "name": "nodejs_express_app",
+  "version": "1.0.0",
+  "description": "Demo Node.js express app to run on Docker and Kubernetes",
+  "author": "Raju Dawadi",
+  "license": "ISC",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dwdraju/nodejs-k8s.git"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.16.*"
+  }
+}
